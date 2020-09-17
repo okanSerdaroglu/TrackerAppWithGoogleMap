@@ -1,8 +1,9 @@
-package com.okan.trackerappwithgooglemaps
+package com.okan.trackerappwithgooglemaps.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import com.okan.trackerappwithgooglemaps.R
 import com.okan.trackerappwithgooglemaps.db.RunDAO
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject

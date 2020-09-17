@@ -1,0 +1,3 @@
+package com.okan.trackerappwithgooglemaps.ui.viewmodels
+
+class StatisticsViewModel
