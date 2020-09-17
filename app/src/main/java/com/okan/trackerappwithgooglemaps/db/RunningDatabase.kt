@@ -14,4 +14,8 @@ abstract class RunningDatabase : RoomDatabase() {
 
     abstract fun getRoomDao(): RunDAO
 
+    companion object {
+        const val RUNNING_DATABASE_NAME = "running_database"
+    }
+
 }
