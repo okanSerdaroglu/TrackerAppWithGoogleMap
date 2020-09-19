@@ -1,0 +1,5 @@
+There are 2 ways of using GoogleMaps in your app.
+The first one is using MapView, the second one is MapFragment.
+Google map has it's own lifecycle. If you use a mapView in a fragment you have to worry about
+your Google map lifecycle. However if you use a mapFragment you should not worry about
+lifecycle of map.
