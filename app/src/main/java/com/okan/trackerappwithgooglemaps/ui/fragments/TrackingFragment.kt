@@ -20,7 +20,7 @@ class TrackingFragment : Fragment(R.layout.fragment_tracking) {
 
     private var map: GoogleMap? = null
 
-    private fun sendCommentToService(action: String) {
+    private fun sendCommentToService(action: String) =
         Intent(
             requireContext(),
             TrackingService::class.java
@@ -28,7 +28,7 @@ class TrackingFragment : Fragment(R.layout.fragment_tracking) {
             it.action = action
             requireContext().startService(it)
         }
-    }
+
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
